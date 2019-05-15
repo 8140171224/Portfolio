@@ -1,0 +1,298 @@
+/******************************************
+Responsive
+******************************************/
+@media (max-width: 1180px){
+    #home{
+        background-position: center top !important;
+        background-attachment: scroll !important;
+        height: auto;
+        margin: 0 auto;     
+        width: 100%;          
+    }
+    .parallax{
+        background-position: center top !important;
+        background-attachment: scroll !important;
+        height: auto;
+        margin: 0 auto;     
+        width: 100%;    
+    }    
+    .navbar-default{
+        z-index: 10;
+    }
+    .navbar-header{
+        float: none;
+    }
+
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-default .navbar-collapse, 
+    .navbar-default .navbar-form{
+        border-color:#f1f2f7;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav{
+        background-color: #ffffff;
+        float: none!important;
+        margin: 0!important;
+        padding: 2px 0;
+    }
+    .navbar-nav>li {
+        float: none;
+        border-bottom: 1px solid #f1f2f7;
+    }
+    .navbar-nav>li:last-child {
+        border-bottom: 0px solid transparent;
+    }
+    .navbar-nav>li>a {
+        color: #2c3e50;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-nav>li>a:after {
+        height: 0 !important;
+    }
+    .collapse.in {
+        display:block !important;
+    }
+    .navbar-toggle {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .container>.navbar-header, 
+    .container-fluid>.navbar-header, 
+    .container>.navbar-collapse, 
+    .container-fluid>.navbar-collapse {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .navbar>.container .navbar-brand, 
+    .navbar>.container-fluid .navbar-brand {
+        margin-left:0;
+    }
+    .navbar-default .navbar-toggle, 
+    .navbar-default .navbar-toggle {
+        -webkit-transition: all .25s ease;
+           -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+             -o-transition: all .25s ease;
+                transition: all .25s ease;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        font-size: 2em;
+        line-height: 25px;
+    }
+    .navbar-collapse.in {
+        overflow-y: auto!important;
+        background:#ffffff;
+    }
+    
+    .navbar-nav > li .sub-menu, .navbar-nav > li .sub-menu > li .sub-menu {
+        display: none;
+        height: auto;
+        left: inherit;
+        min-width: 100%;
+        opacity: 1;
+        overflow: visible;
+        padding-left: 20px;
+        position: relative;
+        top: inherit;
+        z-index: 1;
+    }    
+    .navbar-nav>li:hover .sub-menu,
+    .navbar-nav>li .sub-menu>li:hover .sub-menu{
+        width: 100%;
+        left: inherit;
+        top: inherit;
+    }
+    .navbar-nav>li.menu-item-has-children:before ,
+    .sub-menu>li.menu-item-has-children:before{
+        content: ""!important;
+    }
+    .navbar-nav>li .sub-menu>li>a {
+        line-height: 20px;
+        padding: 10px 15px; 
+        background: inherit !important;
+        border-top:1px solid #f1f2f7 !important;
+        color: #262626;
+    }
+    .toggle_nav_button{
+        display: block ;
+        color: #ffffff;
+        font-size: 28px;
+        line-height: 20px;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        right: 15px;
+        left: inherit;
+        margin-left: 0px;
+        border: 0;
+        padding: 10px;
+        width: 42px;
+        height: 42px;
+        z-index: 100;
+        cursor: pointer;
+    }
+    .sub-menu .toggle_nav_button{
+        right: 40px;
+    }
+    .header-logo{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 980px){
+    .about-info {
+        margin-top: 50px;
+    }
+    .about-extra {
+        margin-top: 50px;
+    }
+    .timeline:after, .timeline:after{
+        display: none;
+    }
+    .timeline-end-icon{
+        display: none;
+    }
+    #filters{
+        margin-right: 60px;
+    }
+    #filters li{
+        display: block;
+    }
+
+}
+@media (max-width: 600px){
+    #header{
+        left: 90px;
+    }
+    .avatar-section img{
+        height: 400px;
+        width: 400px;
+    }    
+    .info > h2{
+        font-size: 60px;
+    }
+    .info > h3{
+        font-size: 20px;
+    }
+    #open-nav.nav-half{
+        float: left;
+        margin-top:0px;
+
+    }
+    #open-nav.nav-full{
+        margin-top: 0px;
+    }
+    #header{
+        left: 0px;
+    }
+    .colors-switcher{
+        display: none;
+    }
+}
+
+@media (max-width: 480px){
+    .navone li{
+        padding: 12px 0;
+    }   
+    .clients_logo li{
+        margin-left: 130px;
+    }
+    .section-title h2{
+        font-size: 40px;
+    }
+    .work_process:before{
+        display: none;
+    }
+    #options{
+         margin: 20px auto 40px 0px;
+    }
+    .price-padding{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .clients_logo li{
+        margin-left: 0px;
+    }    
+}
+
+@media (max-width: 375px){
+    #header{
+        width: 170px;
+    }    
+    #open-nav.nav-full{
+        width: 170px;
+    }
+
+    .navone li{
+        padding: 12px 0;
+    }   
+    .info > h2{
+        font-size: 50px;
+    }
+    .avatar-section{
+        bottom: -150px;
+    }
+    .avatar-section img{
+        height: 300px;
+        width: 300px;
+    }
+    .masonry-post{
+        width: 300px;
+    }
+    .clients_logo li{
+        margin-left: 0px;
+    }
+}
+@media (max-width: 360px){
+    #open-nav.nav-full{
+        width: 170px;
+    }
+    .navone li{
+        padding: 12px 0;
+    }   
+    .info > h2{
+        font-size: 50px;
+    }
+    .avatar-section{
+        bottom: -150px;
+    }
+    .avatar-section img{
+        height: 300px;
+        width: 300px;
+    }
+    .about-extra-icon ul li{
+        height: 100px;
+        width: 100px;
+    }
+    .about-extra-icon ul li p{
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .masonry-post{
+        width: 300px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 320px){'
+    .clients_logo li{
+        margin-left: 0px;
+    }
+}

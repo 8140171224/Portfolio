@@ -1,0 +1,78 @@
+
+a { color: #B7DB48; }
+
+a:hover { color:#93B42C;}
+
+#open-nav.nav-half{
+    background-color: #B7DB48;
+    color: #FFFFFF;
+}
+#open-nav.nav-full{
+    background-color: #B7DB48;
+    color: #FFFFFF;
+}
+
+.navone li.active a {
+    color: #B7DB48;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    color: #B7DB48;
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    color: #B7DB48;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #B7DB48;
+}
+.toggle_nav_button{
+    background-color: #B7DB48;
+}
+.navbar-nav>li .sub-menu>li>a:hover {
+    color: #B7DB48;
+}
+.border{
+    background-color: #B7DB48;
+}
+
+.btn{
+    background-color: #B7DB48;
+}
+.btn:hover,.btn:focus{
+    background-color: #C8321B;
+}
+
+#filters li a:hover{
+    background-color: #B7DB48;
+}
+#options li a.selected{
+    background-color: #B7DB48;
+}
+
+.item-overlay{
+    background-color: #B7DB48;
+}
+
+.project-image:hover .overlay {
+    background-color: rgba(245, 79, 54, 0.85);
+}
+
+.masonry-post-more:hover,
+.btn-masonry:hover,
+.btn:hover {
+    background-color: #B7DB48;
+    color: #ffffff;
+}
+
+.get_in li i{
+    background: none repeat scroll 0 0 #B7DB48;
+}
+.footer-widgets .tag-cloud li a:hover{
+     background: none repeat scroll 0 0 #B7DB48;
+}
+.scroll-top:hover,.scroll-top:focus{
+    background: #B7DB48;
+    color: #FFFFFF;
+    outline: none;
+}
