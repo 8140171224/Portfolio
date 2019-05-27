@@ -29,3 +29,9 @@
 
 # Credits and Sources
 All images from : Flickr, Unsplash and creattica (All images used in the preview are just for demonstration purposes and not included in the Theme.)
+
+# Information
+
+## BY aakash padhiyar
+
+## 8140171224
